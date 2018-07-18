@@ -11,6 +11,7 @@ $ git commit -m "wrote a readme file"
 ```
 
 # 建立远程仓库
+
 ```
 $ ssh-keygen -t rsa -C "naoxiaobai@126.com"
 ```
@@ -21,16 +22,21 @@ $ git remote add origin https://github.com/LEIZI3V/RepositoryName.git
 $ git push -u origin master
 ```
 * 修改文件，更新仓库
+
 ```
 $ git add filename
 $ git commit -m "massage abot Change"
 $ git push origin master
 ```
+![操作成功](https://raw.githubusercontent.com/LEIZI3V/git_repository/master/picture/Push_Flash.PNG)
 
 # 文件操作
+
 ```
 $ git status
 $ git diff file1.txt  # 查看文件修改信息
 $ git log  # 查看日志文件
 $ git log --pretty=oneline
 ```
+
+# links
