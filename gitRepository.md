@@ -1,0 +1,36 @@
+# 创建版本库
+```
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+$ pwd
+$ cd /d FilePath
+$ git init
+$ git add file1.txt
+$ git add file2.txt
+$ git commit -m "wrote a readme file"
+```
+
+# 建立远程仓库
+```
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
+* 在GitHub中创建SSH key 和对应的仓库
+
+```
+$ git remote add origin https://github.com/LEIZI3V/Python_learning.git
+$ git push -u origin master
+```
+* 修改文件，更新仓库
+```
+$ git add filename
+$ git commit -m "massage abot Change"
+$ git push origin master
+```
+
+# 文件操作
+```
+$ git status
+$ git diff file1.txt  # 查看文件修改信息
+$ git log  # 查看日志文件
+$ git log --pretty=oneline
+```
