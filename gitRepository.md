@@ -12,7 +12,7 @@ $ git commit -m "wrote a readme file"
 
 # 建立远程仓库
 ```
-$ ssh-keygen -t rsa -C "youremail@example.com"
+$ ssh-keygen -t rsa -C "naoxiaobai@126.com"
 ```
 * 在GitHub中创建SSH key 和对应的仓库
 
