@@ -1,7 +1,7 @@
 # 创建版本库
 ```
-$ git config --global user.name "Your Name"
-$ git config --global user.email "email@example.com"
+$ git config --global user.name "LEIZI3V"
+$ git config --global user.email "naoxiaobai@126.com"
 $ pwd
 $ cd /d FilePath
 $ git init
@@ -17,7 +17,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 * 在GitHub中创建SSH key 和对应的仓库
 
 ```
-$ git remote add origin https://github.com/LEIZI3V/Python_learning.git
+$ git remote add origin https://github.com/LEIZI3V/RepositoryName.git
 $ git push -u origin master
 ```
 * 修改文件，更新仓库
