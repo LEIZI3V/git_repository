@@ -15,7 +15,13 @@ $ git commit -m "wrote a readme file"
 ```
 $ ssh-keygen -t rsa -C "naoxiaobai@126.com"
 ```
+* 可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，
+这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥。
+
 * 在GitHub中创建SSH key 和对应的仓库
+
+# 创建完成后复制库的地址
+* 可以是https或是ssh key
 
 ```
 $ git remote add origin https://github.com/LEIZI3V/RepositoryName.git
