@@ -28,7 +28,8 @@ $ git add filename
 $ git commit -m "massage abot Change"
 $ git push origin master
 ```
-![操作成功](https://raw.githubusercontent.com/LEIZI3V/git_repository/master/picture/Push_Flash.PNG)
+
+![操作成功][link1]
 
 # 文件操作
 
@@ -40,3 +41,4 @@ $ git log --pretty=oneline
 ```
 
 # links
+[link1]:assets/markdown-img-paste-20180823085709513.png
