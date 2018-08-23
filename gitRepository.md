@@ -40,5 +40,4 @@ $ git log  # 查看日志文件
 $ git log --pretty=oneline
 ```
 
-# links
-[link1]:assets/markdown-img-paste-20180823085709513.png
+[link1]:https://github.com/LEIZI3V/git_repository/blob/master/picture/Push_Flash.PNG
